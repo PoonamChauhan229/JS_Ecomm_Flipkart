@@ -8,6 +8,7 @@ async function productDetails(){
     res.map((element)=>{
         var {id,product_id}=element
         productCard.innerHTML+=`
+        
                         <div id="product${id}"class="col">
                             <div class="card">
                                 <img src=${element.image} style="height: 270px;" class="p-1 card-img-top" alt="...">
